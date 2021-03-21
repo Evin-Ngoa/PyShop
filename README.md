@@ -2,22 +2,22 @@
 Simple Crud Django Ecommerce App
 
 ## Install django in machine
-`  pip install django==[VERSION] `
-`  pip install django==3.1 `
+- ` pip install django==[VERSION] `
+- ` pip install django==3.1 `
 
 ## Start Django
-` django-admin startproject [PROJECT-NAME] .[PERIOD CURRENT FOLDER] `
-` django-admin startproject pyshop . `
+- ` django-admin startproject [PROJECT-NAME] .[PERIOD CURRENT FOLDER] `
+- ` django-admin startproject pyshop . `
 
 ## Run the project
-` python manage.py runserver `
+- ` python manage.py runserver `
 
 ## Generate New sub apps and reistereed in settings
-`  python manage.py startapp products `
+- ` python manage.py startapp products `
 
 ## MAke migration
-`  python manage.py makemigrations ` // endure they are registered in settings for apps
-`  python manage.py migrate ` // runs the migration the existing migrations to db
+- ` python manage.py makemigrations ` // endure they are registered in settings for apps
+- ` python manage.py migrate ` // runs the migration the existing migrations to db
 
 ## Admin
 - Usually creates its own admin panel
